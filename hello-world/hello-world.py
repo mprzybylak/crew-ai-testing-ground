@@ -1,4 +1,4 @@
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew
 from langchain.tools import DuckDuckGoSearchRun
 
 search_tool = DuckDuckGoSearchRun()
